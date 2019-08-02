@@ -1,6 +1,7 @@
-public boolean isValid(String s) {
-	Stack<Character> stack = new Stack<Character>();
-	for (char c : s.toCharArray()) {
+class Solution {
+    public boolean isValid(String s) {
+	    Stack<Character> stack = new Stack<Character>();
+	    for (char c : s.toCharArray()) {
 		if (c == '(')
 			stack.push(')');
 		else if (c == '{')
@@ -11,4 +12,5 @@ public boolean isValid(String s) {
 			return false;
 	}
 	return stack.isEmpty();
+}
 }
