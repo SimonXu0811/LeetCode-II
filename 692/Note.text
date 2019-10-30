@@ -1,0 +1,6 @@
+用hash表储存出现的字符以及对应的次数
+用HashMap.getOrDefault(Key, Default)来创建新的值或者用HashMap.put(key, HashMap.getOrDefault(key,0) + 1)来记录次数
+然后用Collections这个大接口来排序，可以支持object排序
+创建比较器 次数相等时就用字母表排序，次数不等时就返回大的
+Object1.CompareTo(Object2)意思就是object1比object2大
+最后返回要求的个数
