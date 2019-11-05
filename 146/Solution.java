@@ -27,3 +27,9 @@ class LRUCache extends LinkedHashMap<Integer,Integer> {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
+
+
+/*
+时间复杂度:O(1)
+空间复杂度:O(n)
+*/
